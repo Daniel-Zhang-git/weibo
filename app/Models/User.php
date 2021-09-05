@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Models;
-
+//使用了 use 对类进行引用之后，便可以对类进行直接调用。
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
